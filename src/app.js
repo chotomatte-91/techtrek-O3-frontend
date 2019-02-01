@@ -81,7 +81,7 @@ class App extends Component {
                     <header>
                         <Menu icon='labeled' fluid widths={9} inverted>
                             <Menu.Item>
-                                <Image src="http://pluspng.com/img-png/logo-dbs-png-dbs-bank-logo-logotype-4519.png" alt="DBS and POSB logos" size="small" />
+                                <Image src="https://seeklogo.com/images/D/dbs-logo-7ABCCCECCF-seeklogo.com.png" alt="DBS and POSB logos" size="small" />
                             </Menu.Item>
                             <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleItemClick}>
                                 <Icon name='home' />
@@ -147,7 +147,9 @@ class App extends Component {
                                   <div className="grid-content-container">
                                     <Image src='http://www.fmwconcepts.com/misc_tests/gradr.png' fluid rounded />
                                     <div className="grid-content-left">
-                                      <h1>Welcome Back</h1><br />
+                                      <h1>Welcome Back</h1>
+                                      <h2>Mary Tan</h2>
+                                      <br />
                                       Your last login was 06.00PM on Tuesday 29th January 2019 (Singapore)
                                     </div>
                                   </div>
@@ -212,7 +214,10 @@ class App extends Component {
                                     <Image src='http://www.fmwconcepts.com/misc_tests/gradr.png' fluid rounded />
                                     <div className="grid-content-left">
                                       <h1>PayLah</h1><br />
-                                      $0.00
+                                      <p>Mobile Number</p>
+                                      <p>XXXX XXXX</p>  
+                                      <p>Available Balance</p>
+                                      <p>$0.00</p>
                                     </div>
                                   </div>
                                   </a>
