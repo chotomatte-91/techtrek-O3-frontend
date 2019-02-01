@@ -34,3 +34,32 @@
   padding: 15px 32px;
   font-size: 20px;
 }
+
+.navbar {
+  background: #ff3333;
+  border-radius: 4px;
+  min-height: 300px;
+}
+
+.contentspace {
+  background: #ffffff;
+  border-radius: 4px;
+  min-height: 600px;
+  max-width: 1300px;
+  padding: 30px 50px 50px 50px;
+  margin: auto;
+}
+
+.grid-content-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.grid-content-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  right: 16px;
+  text-align: left;
+}
